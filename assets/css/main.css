@@ -1,0 +1,112 @@
+:root {
+  --dark: #000;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 100vh !important;
+  overflow-y: hidden;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+text-center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 49px;
+}
+
+.right {
+  float: right;
+  font-size: 27px;
+  margin-top: 7px;
+  margin-right: 13px;
+}
+
+.album-section {
+  background-color: rgba(123, 123, 123, 0.433);
+  height: 45vh;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: url("/assets/img/sour-moha-TNylIvKXBxk-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  height: 54vh;
+  opacity: 0;
+  position: absolute;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: block;
+  image-rendering: optimizeQuality;
+}
+
+.track-details {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 12px 0;
+  opacity: 0.8;
+}
+
+.track-details .title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.track-details .artist {
+  font-size: 19px;
+  opacity: 0.7;
+}
+
+.controls {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.controls .progress-outer {
+  height: 12px;
+  background-color: rgba(123, 123, 123, 0.433);
+  border-radius: 12px;
+}
+
+.controls .progress-bar {
+  height: 12px;
+  width: 66px;
+  background-color: #6d17b3;
+  border-radius: 12px;
+}
+
+.controls .buttons {
+  margin-top: 55px !important;
+  width: 80%;
+  height: 13vh;
+  margin: auto;
+}
+
+.controls .buttons .button-group {
+  width: 100%;
+  text-align: center;
+}
+
+.controls .buttons .control-icon {
+  font-size: 65px;
+  width: 33%;
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */
