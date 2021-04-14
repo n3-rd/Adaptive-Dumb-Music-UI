@@ -34,25 +34,16 @@ text-center {
   margin-right: 13px;
 }
 
-.album-section {
-  background-color: rgba(123, 123, 123, 0.433);
+img {
   height: 45vh;
   width: 90%;
   margin: 0 auto;
   border-radius: 20px;
-  background: url("/assets/img/jade-scarlato-DxuqACobFoM-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
-}
-
-img {
-  height: 54vh;
-  opacity: 0;
-  position: absolute;
-  width: 95%;
-  margin: 0 auto;
-  border-radius: 20px;
   display: block;
-  image-rendering: optimizeQuality;
+  aspect-ratio: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .track-details {
