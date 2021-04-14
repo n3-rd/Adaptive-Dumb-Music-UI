@@ -18,14 +18,14 @@ function getDominantColor() {
 
 
 function convertArrayToRbg() {
+  
   function rgb(values) {
     return "rgb(" + values.join(", ") + ")";
   }
+
   var dominantColor = rgb(colorThief.getColor(img));
-  // document.getElementsByClassName('control-icon')
   document.querySelector(".control-icons").style.color = dominantColor;
   document.querySelector(".header-buttons").style.color = dominantColor;
-
   document.querySelector(".progress-bar").style.background = dominantColor;
 }
 
