@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   max-height: 100vh!important;
   overflow-y: hidden;
+  font-family: sans-serif;
 }
 .float-left {
   float: left;
@@ -42,7 +43,6 @@ img {
 
 .track-details {
   text-align: center;
-  font-family: sans-serif;
   padding: 12px 0;
   opacity: 0.8;
   .title {
@@ -70,6 +70,11 @@ img {
     width: 66px;
     background-color: #6d17b3;
     border-radius: 12px;
+  }
+  .dummy-timer{
+    margin-top: 8px;
+    padding: 0 4px;
+    opacity: .6;
   }
   .buttons {
     .button-group {
