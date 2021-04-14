@@ -23,11 +23,12 @@ text-center {
   text-align: center;
 }
 
-.icon {
+.header-buttons .icon {
   font-size: 49px;
+  padding: 5px 8px;
 }
 
-.right {
+.header-buttons .right {
   float: right;
   font-size: 27px;
   margin-top: 7px;

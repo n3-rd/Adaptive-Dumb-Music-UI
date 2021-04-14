@@ -17,17 +17,17 @@ body {
 text-center {
   text-align: center;
 }
-.icon {
-  font-size: 49px;
-  // color: #6d17b3;
-
-  // position: absolute;
-}
-.right {
-  float: right;
-  font-size: 27px;
-  margin-top: 7px;
-  margin-right: 13px;
+.header-buttons{
+  .icon {
+    font-size: 49px;
+    padding: 5px 8px;
+  }
+  .right {
+    float: right;
+    font-size: 27px;
+    margin-top: 7px;
+    margin-right: 13px;
+  }
 }
 img {
   height: 45vh;
@@ -76,7 +76,6 @@ img {
       width: 100%;
       text-align: center;
     }
-    // background-color: red;
     margin-top: 55px !important;
     width: 80%;
     height: 13vh;
@@ -85,8 +84,6 @@ img {
       font-size: 65px;
       width: 33%;
       display: inline;
-    //   color: #6d17b3;
-    // color: rgb(250, 140, 139);
     }
   }
 }
