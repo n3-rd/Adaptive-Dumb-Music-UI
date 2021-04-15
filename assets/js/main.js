@@ -1,5 +1,9 @@
+// Made with love by Godwin Jemegah (n3-rd.github.io)
+// Buy me a coffe or donate at https://www.buymeacoffee.com/godwinjemegah
+
 const colorThief = new ColorThief();
 const img = document.querySelector(".album-image");
+var randomImageIcon = document.getElementById("randomImageIcon");
 img.crossOrigin = "Anonymous";
 
 // Make sure image is finished loading
@@ -15,10 +19,7 @@ function getDominantColor() {
   }
 }
 
-
-
 function convertArrayToRbg() {
-  
   function rgb(values) {
     return "rgb(" + values.join(", ") + ")";
   }
@@ -29,9 +30,28 @@ function convertArrayToRbg() {
   document.querySelector(".progress-bar").style.background = dominantColor;
 }
 
+function performMainTask() {
+  Promise.all(
+    Array.from(document.images)
+      .filter((img) => !img.complete)
+      .map(
+        (img) =>
+          new Promise((resolve) => {
+            img.onload = img.onerror = resolve;
+          })
+      )
+  ).then(() => {
+    getDominantColor();
+    convertArrayToRbg();
+  });
+}
 
-Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
-  getDominantColor();
-convertArrayToRbg();
+performMainTask();
 
+randomImageIcon.addEventListener("click", function () {
+  img.setAttribute(
+    "src",
+    `https://picsum.photos/400/600?random=${Math.floor(Math.random() * 90)}`
+  );
+  performMainTask();
 });

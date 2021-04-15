@@ -1,11 +1,10 @@
-:root {
-  --dark: #000;
-}
+// Made with love by Godwin Jemegah (n3-rd.github.io)
+// Buy me a coffe or donate at https://www.buymeacoffee.com/godwinjemegah
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-height: 100vh!important;
+  max-height: 100vh !important;
   overflow-y: hidden;
   font-family: sans-serif;
 }
@@ -18,7 +17,7 @@ body {
 text-center {
   text-align: center;
 }
-.header-buttons{
+.header-buttons {
   .icon {
     font-size: 49px;
     padding: 5px 8px;
@@ -71,10 +70,10 @@ img {
     background-color: #6d17b3;
     border-radius: 12px;
   }
-  .dummy-timer{
+  .dummy-timer {
     margin-top: 8px;
     padding: 0 4px;
-    opacity: .6;
+    opacity: 0.6;
   }
   .buttons {
     .button-group {

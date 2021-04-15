@@ -1,81 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/remixicon.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/remixicon.css" />
     <title>Music UI</title>
-</head>
+  </head>
 
-<body>
+  <body>
 
+    <!-- Made with love by Godwin Jemegah (n3-rd.github.io)
+    Buy me a coffe or donate at https://www.buymeacoffee.com/godwinjemegah
+    -->
     <div class="app-header">
-        <div class="header-buttons">
-            <span class="icon">
-                <i class="ri-arrow-drop-down-line"></i>
-            </span>
+      <div class="header-buttons">
+        <span class="icon">
+          <i class="ri-arrow-drop-down-line"></i>
+        </span>
 
-            <span class="icon right">
-                <i class="ri-image-edit-fill"></i>
-            </span>
+        <span class="icon right" id="randomImageIcon">
+          <i class="ri-image-edit-fill"></i>
+        </span>
 
-            <span class="icon right">
-                <i class="ri-play-list-fill"></i>
-            </span>
-        </div>
-
-
+        <span class="icon right">
+          <i class="ri-play-list-fill"></i>
+        </span>
+      </div>
     </div>
 
-
-    <img src="/assets/img/sour-moha-TNylIvKXBxk-unsplash.jpg" class="album-image">
-
+    <img src="https://picsum.photos/400/600?random=3" class="album-image" />
 
     <div class="track-details">
-        <div class="title">
-            All We Know
-        </div>
-        <div class="artist">
-            N3rd And The Depressed
-        </div>
+      <div class="title">All We Know</div>
+      <div class="artist">N3rd And The Depressed</div>
     </div>
 
     <div class="controls">
-
-        <div class="progress-outer">
-            <div class="progress-bar" id="progress"></div>
-            <div class="dummy-timer">
-                <span class="float-left">1:03</span>
-                <span class="float-right">2:23</span>
-            </div>
+      <div class="progress-outer">
+        <div class="progress-bar" id="progress"></div>
+        <div class="dummy-timer">
+          <span class="float-left">1:03</span>
+          <span class="float-right">2:23</span>
         </div>
+      </div>
 
+      <div class="buttons">
+        <div class="button-group control-icons">
+          <i class="ri-skip-back-fill control-icon"></i>
 
+          <i class="ri-play-circle-fill control-icon text-center"></i>
 
-        <div class="buttons">
-            <div class="button-group control-icons">
-                <i class="ri-skip-back-fill control-icon"></i>
-
-
-
-                <i class="ri-play-circle-fill control-icon text-center"></i>
-
-
-
-                <i class="ri-skip-forward-fill control-icon"></i>
-            </div>
-
-
-
-
+          <i class="ri-skip-forward-fill control-icon"></i>
         </div>
+      </div>
     </div>
-
-
-</body>
-<script src="assets/js/colorthief.js"></script>
-<script src="assets/js/main.js"></script>
+  </body>
+  <script src="assets/js/colorthief.js"></script>
+  <script src="assets/js/main.js"></script>
 </html>
