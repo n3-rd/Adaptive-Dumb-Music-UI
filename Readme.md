@@ -1,7 +1,7 @@
 ﻿# Adaptive Dumb Music UI
 #### A dummy music UI with controls that change based on the dominant colour of the cover image
 
-### Please consider [buying me a cofee](http://https://www.buymeacoffee.com/godwinjemegah "buying me a coffee") if you liked the project at [buymeacofee.com](https://www.buymeacoffee.com/godwinjemegah "buymeacoffee.com")
+### Please consider [buying me a coffee](http://https://www.buymeacoffee.com/godwinjemegah "buying me a coffee") if you liked the project at [buymeacoffee.com](https://www.buymeacoffee.com/godwinjemegah "buymeacoffee.com")
 
 [========]
 
